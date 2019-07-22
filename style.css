@@ -1,0 +1,48 @@
+body{
+	background-image: url("/home/pif/Desktop/Zodiac Sign/zodic.jpg");
+}
+.result{
+	color: #fff;
+}
+.main {
+	display: grid;
+	grid-template-rows: .4fr 1fr;
+	height:100vh;
+}
+.form-container {
+	display: grid;
+	grid-template-rows: .4fr auto;
+}
+
+
+.form {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form input {
+	margin-bottom: 20px;
+	padding: 10px;
+    background-color: #babade;
+    border: none;
+    border-radius: 150px;
+}
+label {
+	font-size: 16px
+}
+
+.submit {
+    background-color: #c03f65;
+    padding: 10px 40px;
+    border-radius: 150px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.submit:hover {
+	background-color: #962f4d;
+}
